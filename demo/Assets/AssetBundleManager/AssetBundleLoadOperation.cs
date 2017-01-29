@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 #if ENABLE_IOS_ON_DEMAND_RESOURCES
 using UnityEngine.iOS;
 #endif
@@ -218,13 +219,20 @@ namespace AssetBundles
 			if (bundle != null)
 			{
 				if (m_IsAdditive)
-					m_Request = Application.LoadLevelAdditiveAsync (m_LevelName);
+                {
+                    m_Request = SceneManager.LoadSceneAsync(m_LevelName, LoadSceneMode.Additive);
+                }
 				else
-					m_Request = Application.LoadLevelAsync (m_LevelName);
+                {
+                    m_Request = SceneManager.LoadSceneAsync(m_LevelName, LoadSceneMode.Single);
+                }
+
 				return false;
 			}
 			else
+            {
 				return true;
+            }
 		}
 		
 		public override bool IsDone ()

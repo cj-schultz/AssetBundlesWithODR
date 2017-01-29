@@ -9,6 +9,7 @@ public class BuildResources
 	[InitializeOnLoadMethod]
 	static void SetupResourcesBuild()
 	{
+        UnityEngine.Debug.Log("ASDASD");
 		UnityEditor.iOS.BuildPipeline.collectResources += CollectResources;
 	}
 

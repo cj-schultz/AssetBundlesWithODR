@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1173004311
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 60bd764e457036231102af5bcfa5c102
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8b6588c9c6f526439f7095f2fb906925
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundleSample/TestAssets/VariantTest/MyAssets HD/someMaterial.mat
+- Assets/AssetBundleSample/TestAssets/VariantTest/MyAssets HD/myTexture.png
+Dependencies: []
