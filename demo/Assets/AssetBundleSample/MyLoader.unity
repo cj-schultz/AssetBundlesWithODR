@@ -611,7 +611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assetBundleName: my-loader-assets
   assetNames:
-  - cubey
+  - cube
   - cylinder
   - sphere
   sceneBundleName: scene-loader-scene

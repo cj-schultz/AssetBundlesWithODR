@@ -98,7 +98,7 @@ public class MyLoader : MonoBehaviour
         }
 
         // Unload assetBundles.
-        AssetBundleManager.UnloadAssetBundle(assetBundleName);
+        //AssetBundleManager.UnloadAssetBundle(assetBundleName);
     }
 
     protected IEnumerator InitializeLevelAsync(string levelName, bool isAdditive)

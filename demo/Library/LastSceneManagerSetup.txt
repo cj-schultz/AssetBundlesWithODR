@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AssetBundleSample/SceneLoader.unity
+- path: Assets/AssetBundleSample/MyLoader.unity
   isLoaded: 1
   isActive: 1
