@@ -22,14 +22,11 @@ public class BuildResources
 			new Resource("cube.unity3d", "AssetBundles/iOS/cube.unity3d").AddOnDemandResourceTags("cube.unity3d"), 
 			new Resource("texture.unity3d", "AssetBundles/iOS/texture.unity3d").AddOnDemandResourceTags("texture.unity3d"),
 			new Resource("material.unity3d", "AssetBundles/iOS/material.unity3d").AddOnDemandResourceTags("material.unity3d"),
-            new Resource("cube", "AssetBundles/iOS/my-loader-assets").AddOnDemandResourceTags("cube");
-            new Resource("sphere", "AssetBundles/iOS/my-loader-assets").AddOnDemandResourceTags("sphere");
-            new Resource("cylinder", "AssetBundles/iOS/my-loader-assets").AddOnDemandResourceTags("cylinder");
-            new Resource("scene", "AssetBundles/iOS/scene-loader-scene").AddOnDemandResourceTags("scene");
+            new Resource("my-loader-assets", "AssetBundles/iOS/my-loader-assets").AddOnDemandResourceTags("my-loader-assets")
 
-			new Resource("variants/variant-scene.unity3d", "AssetBundles/iOS/variants/variant-scene.unity3d").AddOnDemandResourceTags("variants/variant-scene.unity3d"),
-			new Resource("variants/myassets").BindVariant("AssetBundles/iOS/variants/myassets.hd", "hd")
-											 .BindVariant("AssetBundles/iOS/variants/myassets.sd", "sd")
+			//new Resource("variants/variant-scene.unity3d", "AssetBundles/iOS/variants/variant-scene.unity3d").AddOnDemandResourceTags("variants/variant-scene.unity3d"),
+			//new Resource("variants/myassets").BindVariant("AssetBundles/iOS/variants/myassets.hd", "hd")
+			//								 .BindVariant("AssetBundles/iOS/variants/myassets.sd", "sd")
 		};
 	}
 }
