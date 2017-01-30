@@ -69,6 +69,7 @@
     <Compile Include="Assets\AssetBundleSample\Scripts\LoadAssets.cs" />
     <Compile Include="Assets\AssetBundleSample\Scripts\LoadScenes.cs" />
     <Compile Include="Assets\AssetBundleSample\Scripts\LoadVariants.cs" />
+    <Compile Include="Assets\AssetBundleSample\Scripts\MyLoader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 968499499
+CRC: 3149892789
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -27,3 +27,9 @@ AssetBundleManifest:
       Name: material.unity3d
       Dependencies:
         Dependency_0: texture.unity3d
+    Info_7:
+      Name: my-loader-assets
+      Dependencies: {}
+    Info_8:
+      Name: scene-loader-scene
+      Dependencies: {}

@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 3994929875
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 76dccbd3eeae6ea7fa5d1d9d0a69b8b8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 30bad4a3d2d7c166431e60c9de15494c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ed085a901b1ce34c871a02024743a09, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundleSample/SceneLoader.unity
+Dependencies: []
