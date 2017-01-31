@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using UnityEditor.Callbacks;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -26,15 +24,15 @@ namespace AssetBundles
 			{
 #if ENABLE_IOS_ON_DEMAND_RESOURCES
 				if (PlayerSettings.iOS.useOnDemandResources)
-					options |= BuildAssetBundleOptions.UncompressedAssetBundle;
+					options |= BuildAssetBundleOptions.ChunkBasedCompression;
 #endif
 #if ENABLE_IOS_APP_SLICING
-				options |= BuildAssetBundleOptions.UncompressedAssetBundle;				
+				options |= BuildAssetBundleOptions.ChunkBasedCompression;				
 #endif
-			}
-			
-			//@TODO: use append hash... (Make sure pipeline works correctly with it.)
-			BuildPipeline.BuildAssetBundles (outputPath, options, EditorUserBuildSettings.activeBuildTarget);
+            }
+
+            //@TODO: use append hash... (Make sure pipeline works correctly with it.)
+            BuildPipeline.BuildAssetBundles (outputPath, options, EditorUserBuildSettings.activeBuildTarget);
 		}
 	
 		public static void WriteServerURL()
